@@ -1,0 +1,16 @@
+package Levyk;
+
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        System.out.println("Введіть число: ");
+        Scanner scan = new Scanner(System.in);
+        int num = scan.nextInt();
+        if (num >= 5){
+            System.out.println("Число більше 5");
+        } else {
+            System.out.println("Число менше 5");
+        }
+    }
+}
