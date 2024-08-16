@@ -1,0 +1,17 @@
+package Levyk;
+
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+
+        // Виведення повідомлення перед введенням чисел
+        System.out.print("Введіть число 1: ");
+        int num1 = scan.nextInt();
+        System.out.print("Введіть число 2: ");
+        int num2 = scan.nextInt();
+
+        System.out.println("Результат: " + (num1 + num2));
+    }
+}
