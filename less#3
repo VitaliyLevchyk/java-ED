@@ -1,0 +1,23 @@
+package Levyk;
+
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Це метод MAIN -->\nВведіть Число: ");
+
+        int number = scanner.nextInt();
+        scanner.nextLine();
+        System.out.print("Введіть Текст: ");
+        String text = scanner.nextLine();
+
+        stip(number, text);
+    }
+
+    public static void stip(int number, String text) {
+        System.out.println("\n------------\nNumber: " + number);
+        System.out.println("Text: " + text+"\n------------");
+    }
+}
