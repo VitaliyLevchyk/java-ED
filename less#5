@@ -1,0 +1,16 @@
+package Levyk;
+
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Введіть число від 0-10: ");
+        int password = scanner.nextInt();
+
+        if(password >= 5 || password == 6){
+            System.out.println("password > 5 or 6");
+        } else System.out.println("password < 5");
+    }
+}
