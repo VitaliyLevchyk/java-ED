@@ -1,0 +1,7 @@
+class Scratch {
+    public static void main(String[] args)
+    {
+    for(float i = 100; i > 0.5f; i/=2) 
+        System.out.println("NUM= "+i);
+    }
+}
