@@ -1,0 +1,21 @@
+package Levyk;
+import java.util.Scanner;
+
+class pack {
+    public static void main(String[] args) {
+        System.out.print("Введіть кількість елеменів: ");
+        Scanner scan = new Scanner(System.in);
+
+        int user_num = scan.nextInt();
+        int[] num = new int[user_num];
+
+        for (int i = 0; i < user_num; i++){
+            System.out.println("Елемент" + (i + 1) + ": ");
+            num[i] = scan.nextInt();
+        }
+        System.out.println("Ваш список: ");
+        for (int i = 0; i < user_num; i++){
+            System.out.println(num[i]);
+        }
+    }
+}
